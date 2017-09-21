@@ -1,0 +1,33 @@
+- переименовать папки styled-components и material-ui т.к. это теже имена, что и имя модулей нодовских. подумай
+- добавить recompose и выкосить стэйты, где хранятся в компонентах
+- дев, продакшен сборки
+- допилить сборку, плюс сборки добавить для vendor
+- обновить все либы
+- когда-нибудь переписать на typescript-е и доучить typescript
+- с брейкоинтами разобраться
+-
+import theme from 'common/material-ui/theme';
+import App from 'components/App';
+import store from 'store';
+
+injectTapEventPlugin();
+
+импортать containers/App
+
+- add localization
+- use themes with styled-components
+- add normilize.css or maybe material-ui already use it
+- try to add postcss to styled-components
+- add https://redux-form.com/7.0.4/ and material-ui forms
+- add immutable и во всех остальных либах нужно immutable версию ставить
+
+
+- фазер
+- фазер плюс реакт
+- канвас почетать
+- typescript
+- локализация
+- tslint на гитхук
+- editor конфиг почитать и подключить из боилерплейта какой
+- hmr доподключить
+- react-dnd подключить или может другую либу популярную какую для реакта, хотя скорее всего dnd
